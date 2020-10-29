@@ -1,0 +1,20 @@
+API routes
+
+1) POST ->  /login
+input : (username,password)
+      User : (rakesh,rakesh123)
+output : JWT token
+
+2) POST -> /thumbnail
+input :(link)
+      eg(directory link or internet link)
+
+output : Thumbnail will be saved in current directory (working folder)
+
+3) PATCH -> /applypatch
+input : (object,patch)
+      eg(JSON object,JSON patch)
+
+output : New JSON object applying the patch
+
+
